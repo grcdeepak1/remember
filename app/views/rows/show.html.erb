@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @row.url %>
+</p>
+
+<p>
+  <strong>Field:</strong>
+  <%= @row.field %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @row.value %>
+</p>
+
+<%= link_to 'Edit', edit_row_path(@row) %> |
+<%= link_to 'Back', rows_path %>
